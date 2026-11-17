@@ -5,7 +5,7 @@ Encryption Specification AE-1 and AE-2
 **Document version: 1.04
 Last modified: January 30, 2009**
 
-**NOTE: WinZip®  users do not need to read or understand the information contained on this page. It is intended for developers of Zip file utilities.**
+**NOTE: WinZipÂ®  users do not need to read or understand the information contained on this page. It is intended for developers of Zip file utilities.**
 
 Changes since the original version of this document are summarized in the  [Change History](https://www.winzip.com/aes_info.htm#changes)  section below.
 
@@ -257,5 +257,5 @@ Note that the January 2004 version of the WinZip AE-2 specification, version 1.0
 Document version: 1.04
 Last modified: January 30, 2009
 
-Copyright© 2003-2018 Corel Corporation.
+CopyrightÂ© 2003-2018 Corel Corporation.
 All Rights Reserved

@@ -1,7 +1,7 @@
-#ifş
+#ifÃ¾
 #endif
-#error AÿB
+#error AÃ¿B
 #if
 #endif
-int aÿ
-#define A "ÿ
+int aÃ¿
+#define A "Ã¿

@@ -29,7 +29,7 @@ namespace glm
 	GLM_FUNC_QUALIFIER void qr_decompose(matType<C, R, T, P> const& in, matType<(C < R ? C : R), R, T, P>& q, matType<C, (C < R ? C : R), T, P>& r)
 	{
 		// Uses modified Gram-Schmidt method
-		// Source: https://en.wikipedia.org/wiki/Gram–Schmidt_process
+		// Source: https://en.wikipedia.org/wiki/Gramâ€“Schmidt_process
 		// And https://en.wikipedia.org/wiki/QR_decomposition
 
 		//For all the linearly independs columns of the input...
@@ -65,8 +65,8 @@ namespace glm
 	{
 		// From https://en.wikipedia.org/wiki/QR_decomposition:
 		// The RQ decomposition transforms a matrix A into the product of an upper triangular matrix R (also known as right-triangular) and an orthogonal matrix Q. The only difference from QR decomposition is the order of these matrices.
-		// QR decomposition is Gram–Schmidt orthogonalization of columns of A, started from the first column.
-		// RQ decomposition is Gram–Schmidt orthogonalization of rows of A, started from the last row.
+		// QR decomposition is Gramâ€“Schmidt orthogonalization of columns of A, started from the first column.
+		// RQ decomposition is Gramâ€“Schmidt orthogonalization of rows of A, started from the last row.
 
 		matType<R, C, T, P> tin = transpose(in);
 		tin = fliplr(tin);
